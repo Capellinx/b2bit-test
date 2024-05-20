@@ -8,6 +8,7 @@ export default {
       white_light: "#FAFAFA",
       white_input: "#F1F1F1",
       white_auth: "#F1F5F9",
+      white_info: "#F4F4F4",
       white: "#FFFFFF",
       black: "#262626",
     },
