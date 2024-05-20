@@ -7,7 +7,7 @@ export const Header = () => {
    return (
       <header className='bg-white flex justify-end'>
          <div className='w-72 p-3'>
-            <Button text='Logout' onClick={() => logoutUser()} />
+            <Button  onClick={() => logoutUser()}>Logout</Button>
          </div>
       </header>
    )
