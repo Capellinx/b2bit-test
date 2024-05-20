@@ -1,13 +1,10 @@
 import { Route, Routes } from "react-router-dom"
-import { LoginForm } from "../components/forms/loginForm"
-
-
-
+import { Login } from "../pages/login"
 
 export const RoutesMain = () => {
    return(
       <Routes>
-         <Route path="/" element={<LoginForm/>}/>
+         <Route path="/" element={<Login/>}/>
       </Routes>
    )
 }
