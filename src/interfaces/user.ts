@@ -1,7 +1,7 @@
 export interface IUserContext {
    loginUser(data: IUserInformation): Promise<void>;
    logoutUser(): void;
-   profile: IProfile[];
+   profile: IProfile[] |null;
 }
 export interface IUserInformation {
    email: string;
