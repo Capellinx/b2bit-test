@@ -33,7 +33,7 @@ export const LoginForm = () => {
             {...register('password')}
             error={errors.password}
          />
-         <Button text='Sig In' type='submit' newClass='mt-8' />
+         <Button type='submit' newClass='mt-8'>Sign in</Button>
       </form>
    )
 }
