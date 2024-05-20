@@ -12,7 +12,7 @@ export const Input = forwardRef<HTMLInputElement, IInputProps>(
       return (
          <>
             <label
-               htmlFor="">{label}</label>
+               className="font-bold">{label}</label>
             <input
                ref={ref}
                {...rest} />
