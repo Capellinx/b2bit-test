@@ -2,7 +2,7 @@ import { ButtonHTMLAttributes, forwardRef } from "react"
 
 interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
    text: string
-   newClass: string
+   newClass?: string
 }
 
 export const Button = forwardRef<HTMLButtonElement, IButtonProps>(({ text, newClass, ...rest }, ref) => {
