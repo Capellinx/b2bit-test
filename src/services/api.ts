@@ -13,8 +13,10 @@ export const apiUrl = axios.create({
 apiUrl.interceptors.request.use(
    async config => {
       const token = localStorage.getItem("token_b2bit"); 
-      if (token) {
-         config.headers['Authorization'] = `Bearer ${token}`;
+      const convertedToken = token ? JSON.parse(token) : null
+
+      if (convertedToken) {
+         config.headers['Authorization'] = `Bearer ${convertedToken}`;
       }
       return config;
    },
