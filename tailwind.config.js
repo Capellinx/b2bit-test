@@ -2,7 +2,18 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    colors: {
+      blue_b2bit: "##02274F",
+      yellow_b2bit: "#FDCF00",
+      white_light: "#FAFAFA",
+      white: "#FFFFFF",
+      black: "#262626",
+    },
+    extend: {
+      fontFamily: {
+        "nunito": ["Nunito", "sans-serif"]
+      },
+    },
   },
   plugins: [],
 };
