@@ -1,10 +1,7 @@
 import { forwardRef, InputHTMLAttributes } from "react";
-import { ZodError } from "zod";
-
-
 interface IInputProps extends InputHTMLAttributes<HTMLInputElement> {
    label: string;
-   error?: ZodError | null;
+   error?: any;
 }
 
 export const Input = forwardRef<HTMLInputElement, IInputProps>(
@@ -16,7 +13,7 @@ export const Input = forwardRef<HTMLInputElement, IInputProps>(
             <input
                ref={ref}
                {...rest} />
-            {error ? "Message: This input need to check" : null}
+            {error ? <p className="text-[#FF0000] font-bold mt-2">{error.message}</p> : null}
          </>
       )
    }
