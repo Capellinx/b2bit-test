@@ -12,7 +12,7 @@ export interface IProfile {
    email: string;
    avatar: {
       low: string,
-      midium: string;
+      medium: string;
       high: string;
    }
 }
