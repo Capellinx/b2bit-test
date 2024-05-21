@@ -11,7 +11,7 @@ export const Button = forwardRef<HTMLButtonElement, IButtonProps>(({ children, n
          <button
             {...rest}
             ref={ref}
-            className={`w-full bg-blue_b2bit text-lg font-bold font-nunito text-white p-2 rounded-lg ${newClass}`}
+            className={`w-full bg-blue_b2bit text-lg font-bold font-nunito text-white p-2 rounded-lg cursor-pointer ${newClass}`}
             >
                {children}
          </button>
