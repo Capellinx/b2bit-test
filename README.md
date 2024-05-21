@@ -73,7 +73,7 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 
 * Agradeço a oportunidade de poder estar fazendo parte desse processo seletivo3 📢;
 * Adoraria receber um feedback tanto positivo quanto negativo para crescer na carreira 🍺;
-* Agradeço também ao Matheus que foi muito solicito no LinkedIn 💙;
+* Agradeço também ao Miguel Rocha Jr. que foi muito solicito no LinkedIn 💙;
 * Agradeço a equipe da B2BIT que fez esse desafio super bacanca🍾.
 
 
