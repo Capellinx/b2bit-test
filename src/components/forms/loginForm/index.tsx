@@ -21,7 +21,7 @@ export const LoginForm = () => {
             label='E-mail'
             type='email'
             placeholder='@example.com'
-            className='w-[365px] bg-white_input p-4 mt-5  rounded-lg'
+            className='w-[365px] bg-white_input p-4 mt-5 mb-6 rounded-lg'
             {...register('email')}
             error={errors.email}
          />
