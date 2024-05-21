@@ -16,12 +16,12 @@ export const LoginForm = () => {
 
 
    return (
-      <form className='flex flex-col mt-9' onSubmit={handleSubmit(loginUser)}>
+      <form className='flex flex-col mt-9 gap-2' onSubmit={handleSubmit(loginUser)}>
          <Input
             label='E-mail'
             type='email'
             placeholder='@example.com'
-            className='w-[365px] bg-white_input p-4 mt-5 mb-6 rounded-lg'
+            className='w-[365px] bg-white_input p-4  rounded-lg'
             {...register('email')}
             error={errors.email}
          />
@@ -29,7 +29,7 @@ export const LoginForm = () => {
             label='Password'
             type='password'
             placeholder='****************'
-            className='w-[365px] bg-white_input p-4 mt-5  rounded-lg'
+            className='w-[365px] bg-white_input p-4 rounded-lg'
             {...register('password')}
             error={errors.password}
          />
